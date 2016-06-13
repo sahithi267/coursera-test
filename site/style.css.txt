@@ -1,0 +1,57 @@
+
+h1{
+	    color: red;
+		text-align: center;
+}
+body{
+		color: white;
+		background-color: indigo; 
+		overflow: auto;
+		font-family: calibri;
+}
+h2{
+    	float: right;
+    	font-style: italic;
+    	color: green;
+}
+.row{
+	width=100%
+}
+.col{
+    float: left;
+    padding: 25px 20px 0px 20px;
+}
+.col-div{
+	border: 2px solid black;
+    clear: both;
+    overflow: auto;
+    height: 300px;
+}
+.content-div{
+	float: left;
+}  
+
+.header-div{
+	padding: 0px 20px 0px 20px;
+	border-bottom : 2px solid black;
+	border-left : 2px solid black;
+	float: right;
+}
+
+@media (min-width: 1200px) {
+  .col {
+    width: 30%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+   .col {
+    width: 48%;
+  }
+}
+@media (min-width: 767px) and (max-width: 991px) {
+  .col {
+    width: 100%;
+  }
+}
+
+
